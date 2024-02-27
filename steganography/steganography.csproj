@@ -53,4 +53,10 @@
     <!--<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />-->
   </ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="AddImagePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
